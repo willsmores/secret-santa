@@ -23855,6 +23855,7 @@ __metadata:
     "@types/react-dom": 18.2.6
     autoprefixer: ^10.4.16
     framer-motion: ^10.16.5
+    humanize-string: 2.1.0
     postcss: ^8.4.31
     postcss-loader: ^7.3.3
     prop-types: 15.8.1
