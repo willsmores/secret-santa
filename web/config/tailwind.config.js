@@ -3,15 +3,6 @@ module.exports = {
   content: ['src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     extend: {
-      backgroundImage: {
-        auth: 'url("/images/bg__auth.svg")',
-        checked: 'url("/images/checkbox--checked.svg")',
-        unchecked: 'url("/images/checkbox--unchecked.svg")',
-      },
-      borderWidth: {
-        1: '1px',
-        avatar: '6px',
-      },
       colors: {
         supernova: '#fac900' /* yellow / warning */,
         spicyMustard: '#6e5a0d' /* dark yellow */,
@@ -32,12 +23,6 @@ module.exports = {
         padua: '#b1e3cc' /* lightest green - placeholder color */,
         vistaBlue: '#94d1b4' /* light green - placeholder color */,
       },
-      height: {
-        18: '72px',
-      },
-      width: {
-        18: '72px',
-      },
     },
     fontFamily: {
       condensed: ['Bebas Neue', 'sans-serif'],
@@ -47,5 +32,4 @@ module.exports = {
     },
   },
   plugins: [],
-  safelist: ['status-success', 'status-error', 'status-warning'],
 }
